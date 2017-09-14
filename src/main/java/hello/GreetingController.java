@@ -16,4 +16,9 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
+
+    @RequestMapping("/hello-us1")
+    public String greetingHelloUS1() {
+        return "Hello US1";
+    }
 }
