@@ -26,4 +26,9 @@ public class GreetingController {
     public String greetingHelloUS1() {
         return "Hello US2";
     }
+
+    @RequestMapping("/hello-us3")
+    public String greetingHelloUS1() {
+        return "Hello US3";
+    }
 }
